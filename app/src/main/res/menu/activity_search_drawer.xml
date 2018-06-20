@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="none">
+        <item
+            android:id="@+id/to_search"
+            android:title="@string/drawer_to_search"
+            />
+        <item
+            android:id="@+id/to_database"
+            android:title="@string/drawer_to_database"
+            />
+    </group>
+
+</menu>

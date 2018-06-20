@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">T.A. it</string>
+    <string name="navigation_drawer_open">Открыть боковое меню</string>
+    <string name="navigation_drawer_close">Закрыть боковое меню</string>
+    <string name="search_hint">Поиск по запискам</string>
+    <string name="tab_close">Закрыть вкладку</string>
+    <string name="app_label">Cheater</string>
+    <string name="title_activity_database">Мои записки</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_edit">Добавить шпаргалку</string>
+    <string name="header_hint">Заголовок</string>
+    <string name="tags_hint">Введите теги через запятую</string>
+    <string name="contenttext_hint">Текст записки</string>
+    <string name="drawer_to_search">Поиск</string>
+    <string name="drawer_to_database">Мои записки</string>
+
+</resources>

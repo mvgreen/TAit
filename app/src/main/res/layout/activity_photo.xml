@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/activity_photo"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp"
+        tools:context="com.cheater.PhotoActivity">
+
+    <Button
+            android:text="Снимок"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/photo_btn"
+            android:onClick="onClick"
+            android:layout_below="@+id/tv1" android:layout_alignParentEnd="true"/>
+
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Добавить"
+            android:id="@+id/add_btn"
+            android:onClick="onClick"
+            android:layout_alignParentBottom="true" android:layout_toEndOf="@+id/delete_btn"/>
+
+    <Button
+            android:text="Удалить"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/delete_btn"
+            android:layout_alignParentBottom="true" android:layout_alignParentStart="true"
+            android:onClick="onClick"
+    />
+
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Подтвердить"
+            android:id="@+id/confirm_btn"
+            android:layout_alignParentBottom="true" android:layout_alignParentEnd="true"
+            android:onClick="onClick"
+    />
+
+    <EditText
+            android:text="TextView"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:id="@+id/tv1"
+            android:gravity="top"
+            android:inputType="textMultiLine"
+            android:layout_alignParentTop="true" android:layout_alignParentStart="true"/>
+</RelativeLayout>
+
